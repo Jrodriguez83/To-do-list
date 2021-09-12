@@ -1,0 +1,24 @@
+.item{
+    display: flex; 
+    font-size: 30px;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(38, 156, 156, 0.712);  
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    justify-content: space-between;
+    transition: 300ms;
+}
+
+.done{
+    text-decoration: line-through;
+    transition: 1s;
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: rgba(12, 124, 124, 0.712);  
+    transition: 300ms;
+}

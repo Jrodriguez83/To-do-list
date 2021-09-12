@@ -1,0 +1,21 @@
+.enter{
+    margin-left: 15px;
+    height: 45px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: rgb(29, 170, 83);
+}
+
+.enter:hover{
+    cursor: pointer;
+    background-color: rgb(10, 145, 61);
+    transition-duration: 300ms;
+}
+.input{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px;
+}

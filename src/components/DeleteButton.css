@@ -1,0 +1,17 @@
+.deleteButton {
+    height: 40px;
+    width: 80px;
+    padding-left: 2px;
+    cursor: default;
+    content: url("../assets/img/big-trash-can-vector-trash-can-icon-1156305906701r6eta2fm.png");
+    border-radius: 5px ;
+    background-color: rgb(243, 44, 44);
+    border: 1px solid black;
+    transition: 300ms;
+}
+
+.deleteButton:hover{
+    cursor: pointer;
+    background-color: rgb(177, 9, 9);
+    transition-duration: 300ms;
+}
